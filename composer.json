@@ -1,0 +1,19 @@
+{
+    "name": "wmsn-web/my-php-library-test",
+    "description": "This is first testing library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MyPhpLibraryTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sanjay Natta"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}
