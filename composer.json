@@ -2,6 +2,7 @@
     "name": "wmsn-web/my-php-library-test",
     "description": "This is first testing library",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "MyPhpLibraryTest\\": "src/"
@@ -14,6 +15,6 @@
     ],
     "minimum-stability": "stable",
     "require-dev": {
-        "phpunit/phpunit": "9.6.x-dev"
+        "phpunit/phpunit": "^9.6"
     }
 }
