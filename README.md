@@ -1,6 +1,8 @@
 ## Manage Config file
 - Create a file name *stripe.php* in your *config folder*.
 
+composer require wmsn-web/my-php-library-test
+
 ``` php
     
 
