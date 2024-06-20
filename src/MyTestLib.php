@@ -8,4 +8,10 @@ class MyTestLib
 		$val = strlen($value);
 		return "Value length is ".$val;
 	}
+
+	public function checkValInUrl(string $value)
+	{
+		
+		return "http://".trim($value).".com";
+	}
 }
